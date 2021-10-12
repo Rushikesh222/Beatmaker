@@ -89,6 +89,10 @@ svg {
   padding: 1rem;
   font-size: 1rem;
 }
+.mute.active {
+  background-color: rgb(151, 136, 136);
+}
+
 @keyframes playTrack {
   from {
     transform: scale(1);
