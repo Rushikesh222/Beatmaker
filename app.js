@@ -14,10 +14,9 @@ class Drumkit {
   repeat() {
     let step = this.index % 8;
     const activeBars = document.querySelectorAll(`.b${step}`);
-    console.log(activeBars);
 
     activeBars.forEach((bar) => {
-      bar.style.animation = `playTrack 0.3 alternate ease-in-out`;
+      bar.style.animation = `playTrack 0.3s alternate ease-in-out 2`;
     });
     this.index++;
   }
